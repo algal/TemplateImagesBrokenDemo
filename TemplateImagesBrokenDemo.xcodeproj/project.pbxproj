@@ -13,6 +13,7 @@
 		5E246C7319D37BCB00F2FB3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E246C7219D37BCB00F2FB3F /* Images.xcassets */; };
 		5E246C7619D37BCB00F2FB3F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E246C7419D37BCB00F2FB3F /* LaunchScreen.xib */; };
 		5E246C8219D37BCB00F2FB3F /* TemplateImagesBrokenDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E246C8119D37BCB00F2FB3F /* TemplateImagesBrokenDemoTests.swift */; };
+		5E246C8C19D3806C00F2FB3F /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E246C8B19D3806C00F2FB3F /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5E246C7B19D37BCB00F2FB3F /* TemplateImagesBrokenDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateImagesBrokenDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E246C8019D37BCB00F2FB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E246C8119D37BCB00F2FB3F /* TemplateImagesBrokenDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateImagesBrokenDemoTests.swift; sourceTree = "<group>"; };
+		5E246C8B19D3806C00F2FB3F /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				5E246C6B19D37BCB00F2FB3F /* AppDelegate.swift */,
 				5E246C6D19D37BCB00F2FB3F /* ViewController.swift */,
 				5E246C6F19D37BCB00F2FB3F /* Main.storyboard */,
+				5E246C8B19D3806C00F2FB3F /* HeaderView.xib */,
 				5E246C7219D37BCB00F2FB3F /* Images.xcassets */,
 				5E246C7419D37BCB00F2FB3F /* LaunchScreen.xib */,
 				5E246C6919D37BCB00F2FB3F /* Supporting Files */,
@@ -195,6 +198,7 @@
 				5E246C7119D37BCB00F2FB3F /* Main.storyboard in Resources */,
 				5E246C7619D37BCB00F2FB3F /* LaunchScreen.xib in Resources */,
 				5E246C7319D37BCB00F2FB3F /* Images.xcassets in Resources */,
+				5E246C8C19D3806C00F2FB3F /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
