@@ -21,7 +21,7 @@ class ViewController: UITableViewController {
   }
 
   override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-    return CGFloat(150)
+    return CGFloat(250)
   }
   
   // cell

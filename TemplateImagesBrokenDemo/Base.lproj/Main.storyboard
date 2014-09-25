@@ -19,38 +19,33 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OJw-xb-s1i" id="dcn-gZ-vN6">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gavel-30pt-black" translatesAutoresizingMaskIntoConstraints="NO" id="KAz-yB-OyW">
-                                            <rect key="frame" x="58" y="18" width="30" height="30"/>
-                                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ux-95-NB5">
+                                            <rect key="frame" x="58" y="19" width="30" height="30"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="30" id="TgS-yf-VAK"/>
-                                                <constraint firstAttribute="width" constant="30" id="dJc-1s-bH9"/>
+                                                <constraint firstAttribute="width" constant="30" id="l8f-CC-Ydj"/>
+                                                <constraint firstAttribute="height" constant="30" id="sIS-ry-RZJ"/>
                                             </constraints>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gavel-30pt-black" translatesAutoresizingMaskIntoConstraints="NO" id="WFB-7h-chV">
+                                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <state key="normal" image="gavel-30pt-black">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                        <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gavel-30pt-black" translatesAutoresizingMaskIntoConstraints="NO" id="WFB-7h-chV">
                                             <rect key="frame" x="512" y="18" width="30" height="30"/>
                                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="30" id="Td6-5L-ZoB"/>
-                                                <constraint firstAttribute="height" constant="30" id="mea-rf-zkB"/>
+                                                <constraint firstAttribute="width" constant="30" id="2b1-hR-0z7"/>
+                                                <constraint firstAttribute="height" constant="30" id="h5j-ZS-bnx"/>
                                             </constraints>
                                         </imageView>
                                     </subviews>
                                     <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
-                                        <constraint firstAttribute="centerY" secondItem="WFB-7h-chV" secondAttribute="centerY" constant="-0.5" id="ChP-eV-2no"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="WFB-7h-chV" secondAttribute="trailing" constant="50" id="Wf0-LD-4Dh"/>
-                                        <constraint firstItem="KAz-yB-OyW" firstAttribute="top" secondItem="dcn-gZ-vN6" secondAttribute="topMargin" constant="10" id="Z8F-RL-xTx"/>
-                                        <constraint firstItem="KAz-yB-OyW" firstAttribute="leading" secondItem="dcn-gZ-vN6" secondAttribute="leadingMargin" constant="50" id="fs0-fI-FRH"/>
-                                        <constraint firstAttribute="centerY" secondItem="KAz-yB-OyW" secondAttribute="centerY" id="hZK-ch-1O8"/>
-                                        <constraint firstItem="KAz-yB-OyW" firstAttribute="centerX" secondItem="dcn-gZ-vN6" secondAttribute="centerX" id="nyP-bN-5u9"/>
+                                        <constraint firstAttribute="centerY" secondItem="WFB-7h-chV" secondAttribute="centerY" constant="-0.5" id="9qx-AD-Fxo"/>
+                                        <constraint firstAttribute="centerY" secondItem="2Ux-95-NB5" secondAttribute="centerY" constant="-1.5" id="R71-qa-7OU"/>
+                                        <constraint firstItem="2Ux-95-NB5" firstAttribute="leading" secondItem="dcn-gZ-vN6" secondAttribute="leadingMargin" constant="50" id="aAY-Ic-n5r"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="WFB-7h-chV" secondAttribute="trailing" constant="50" id="jZr-87-aCz"/>
                                     </constraints>
-                                    <variation key="default">
-                                        <mask key="constraints">
-                                            <exclude reference="Z8F-RL-xTx"/>
-                                            <exclude reference="nyP-bN-5u9"/>
-                                        </mask>
-                                    </variation>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
