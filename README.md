@@ -1,6 +1,6 @@
 # TemplateImagesBrokenDemo
 
-PDF vector template images are not rendered propery by UIImageView.
+PDF vector template images are not rendered properly by UIImageView.
 
 ## OpenRadar
 
