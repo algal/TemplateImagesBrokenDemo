@@ -20,6 +20,6 @@ only sporadically to the UIImageViews on the right of the cell. It is,
 however, applied consistently to the UIButtons on the left.
 
 <div style="text-align: center">
-<img width="100%" src="./screenshot.png"></img>
+<img width="50%" src="./screenshot.png"></img>
 </div>
 
