@@ -14,7 +14,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellReuseIdentifier" id="OJw-xb-s1i">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellReuseIdentifier" id="OJw-xb-s1i" customClass="TemplateDemoCell" customModule="TemplateImagesBrokenDemo" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OJw-xb-s1i" id="dcn-gZ-vN6">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -47,6 +47,10 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="WFB-7h-chV" secondAttribute="trailing" constant="50" id="jZr-87-aCz"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="buttonView" destination="2Ux-95-NB5" id="nAe-91-HzR"/>
+                                    <outlet property="templateImageView" destination="WFB-7h-chV" id="2mS-az-HgM"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

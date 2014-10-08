@@ -8,15 +8,29 @@
 
 import UIKit
 
+
+var shouldSetImagesManually : Bool = false
+
+
 class ViewController: UITableViewController {
-
+  
   // header
-  var myHeaderView:UIView?
+  var myHeaderView:HeaderView?
+  
+  func handleSwitchTap(sender:UISwitch) -> () {
+    shouldSetImagesManually = sender.on
+  }
 
-  override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+  override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView?
+  {
     if self.myHeaderView == nil {
-      self.myHeaderView = UINib(nibName: "HeaderView", bundle: nil).instantiateWithOwner(self, options: nil).first as? UIView
+      self.myHeaderView = UINib(nibName: "HeaderView", bundle: nil).instantiateWithOwner(self, options: nil).first as? HeaderView
+      
+      self.myHeaderView?.shouldSetImagesManuallySwitch.addTarget(self, action: Selector("handleSwitchTap:"), forControlEvents: UIControlEvents.TouchUpInside)
     }
+    
+    self.myHeaderView?.shouldSetImagesManuallySwitch.on = shouldSetImagesManually
+    
     return self.myHeaderView
   }
 
